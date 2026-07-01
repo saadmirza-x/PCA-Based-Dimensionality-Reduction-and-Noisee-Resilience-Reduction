@@ -24,8 +24,6 @@ Reconstruction MSE (4-way comparison):
 | Raw noisy vs clean | 0.089 | Baseline noise level before any PCA |
 Here's the part worth flagging in your report: the "denoising" MSE (0.388) is higher than the raw noise baseline (0.089). That's not a bug — it means PCA reconstruction at k=5 didn't denoise the data, it added error on top of the noise. Worth a sentence explaining why (probably: k=5 keeps some noise-dominated components, or information genuinely lost in the low-variance tail).
 Cluster visualization (2D & 3D): Country groupings stay visually consistent between clean and noisy projections — same neighbors (e.g., Cape Verde/Philippines/Sri Lanka cluster together in both) even with noise added, which supports that PCA structure is noise-resistant at a qualitative level even if the MSE story is more nuanced.
-
-
 Repo Structure
 ├── Code_File.py   # actual script
 ├── report/                       # IEEE report
