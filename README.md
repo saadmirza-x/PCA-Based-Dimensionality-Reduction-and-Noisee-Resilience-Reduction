@@ -2,7 +2,7 @@ PCA-Based Dimensionality Reduction on Country-Level Indicator Data.
 
 CE342 – Computational Methods | GIKI, Spring 2026
 
-Team: Muhammad Saad Bin Waqas, Hassan Khalid, Moiz ud din
+Team: Muhammad Saad Bin Waqas, Hassan Khalid, Moiz ud din.  
 Overview:    
 We run PCA on a 9-feature country-level dataset, once on clean data and once after injecting Gaussian noise at SNR = 11 dB. The goal: see how much noise degrades the structure PCA finds, and how well reconstruction recovers it.
 
