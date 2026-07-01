@@ -1,4 +1,4 @@
-PCA-Based Dimensionality Reduction on Country-Level Indicator Data
+PCA-Based Dimensionality Reduction on Country-Level Indicator Data.  
 CE342 – Computational Methods | GIKI, Spring 2026
 
 Team: Muhammad Saad Bin Waqas, Hassan Khalid, Moiz ud din
